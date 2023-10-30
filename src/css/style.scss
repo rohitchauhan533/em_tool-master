@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Poppins','sen-serif';
+}
+
+
+.navbar-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.3rem;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(196, 192, 192);
+    -moz-box-shadow: 0 8px 6px -6px rgb(196, 192, 192);;
+         box-shadow: 0 8px 6px -6px rgb(196, 192, 192);
+         margin-bottom: 2rem;
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       
+        a {
+            text-decoration: none;
+            padding: .5rem .8rem;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 1rem;
+            border-radius: 8px;
+        
+
+        }
+    }
+    .box1{
+        display: flex;
+        gap: 8px;
+        p{
+            font-weight: 600;
+            font-size: 2rem;
+        }
+      
+    }
+    .box2{
+        display: flex;
+        gap: 30px;
+    }
+
+}
+
+.error-p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+  
+  
+  .a {
+    text-decoration: none;
+    color: #27cdff;
+    font-weight: 600;
+  }
+  
+
+//   #####################subscribers###################################
+
+.subs-header{
+    border: 0.8px solid rgb(214, 213, 213);
+    height: 5em;
+    border-bottom: #fff;
+
+}
+
+.logo-name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 3rem;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.main-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    .left-section{
+        border: 0.8px solid rgb(214, 213, 213);
+       width: 50%;
+    }
+    
+    .right-section{
+        border: 0.8px solid rgb(214, 213, 213);
+        width: 100%;
+    }
+}
+
+.subs-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    .footer-content{
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  th {
+    background-color: rgb(250, 249, 249);
+  }
+  
+  td {
+    background-color: rgb(236, 236, 236);
+  }
+
+  .file-uploader{
+    
+      margin-top: 10rem;
+  }
+
+
+//   ##################################template################################
+
+
+.editor-wrapper{
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

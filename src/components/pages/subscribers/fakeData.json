@@ -1,0 +1,20 @@
+[
+    {
+        "id":2,
+        "name":"naveen",
+        "email":"naveen@gmail.com",
+        "subscribed":"true"
+    },
+    {
+        "id":1,
+        "name":"vinay",
+        "email":"vinay@gmail.com",
+        "subscribed":"false"
+    },
+    {
+        "id":3,
+        "name":"monu",
+        "email":"monu@gmail.com",
+        "subscribed":"false"
+    }
+]
